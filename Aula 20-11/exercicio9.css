@@ -1,0 +1,54 @@
+.container {
+
+    display: grid;
+    grid-template-columns: 1fr 50% 1fr;
+    grid-template-rows: 50px 50px 300px 50px;
+    grid-gap: 10px;
+    grid-auto-rows: 100px;
+ 
+    
+    }
+    
+    #A1{
+        
+        background-color:green;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        
+    }
+
+    #barralateral{
+        
+        background-color:rosybrown;
+        grid-row-start: 1;
+        grid-row-end: -1;
+        
+    }
+    
+    #A2{
+        
+        background-color:red;
+        
+    }
+    #A3{
+        
+        background-color:red;
+        
+    
+    }
+    
+    #A5{
+        
+        background-color:blueviolet;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    #A6{
+        
+        background-color:chocolate;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+   

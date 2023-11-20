@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.quadro {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(107, 57, 57);
+    margin: 5px; /* Ajustado para 5px de margem */
+    width: calc(30% - 10px); /* Ajustado para 30% da largura total com 10px de espaçamento total */
+}
+
+.menu, .noticias, .destaques, .servicos, #resultados {
+    width: calc(30% - 10px); /* Ajustado para 30% da largura total com 10px de espaçamento total */
+    margin: 5px; /* Ajustado para 5px de margem */
+}
+
+.noticias {
+    background-color: rgb(107, 57, 57);
+    padding: 15px;
+    width: calc(30% - 10px); /* Ajustado para 30% da largura total com 10px de espaçamento total */
+}
+
+#resultados, .servicos {
+    flex-grow: 1;
+    background-color: rgb(107, 57, 57);
+    padding: 11px;
+    margin: 5px; /* Ajustado para 5px de margem */
+}
+
+.servicos {
+    background-color: rgb(107, 57, 57);
+    padding: 95px;
+    width: calc(25% - 20px);
+    float: left;]
+    padding-left: 50px;
+}
+
+.destaques {
+    background-color: rgb(107, 57, 57);
+    padding: 20px;
+    width: calc(30% - 10px); /* Ajustado para 30% da largura total com 10px de espaçamento total */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
