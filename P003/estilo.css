@@ -1,0 +1,16 @@
+.container-destinos{
+    background-color:  white;
+    display: flex ;
+    gap: 20px; 
+    
+}
+ img{
+width: 300px;
+height: 250px
+ }
+
+.roteiros-viagens{
+
+    border: 25px solid #cc37c0;
+    background-color:#cc37c0
+}
